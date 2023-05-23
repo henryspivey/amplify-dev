@@ -1,0 +1,30 @@
+{
+  "name": "amplify-js-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack && webpack-dev-server --mode development",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henryspivey/amplify-dev.git"
+  },
+  "author": "Henry Spivey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henryspivey/amplify-dev/issues"
+  },
+  "homepage": "https://github.com/henryspivey/amplify-dev#readme",
+  "dependencies": {
+    "aws-amplify": "^5.2.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
